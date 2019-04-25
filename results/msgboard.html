@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>訪客留言</title>
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+</head>
+<style>
+.title{
+	color:#FF0000;
+	font-weight:bold;
+}
+</style>
+<body>
+<marquee>謝謝蒞臨本網站，請給予我們支持、鼓勵與建言。
+</marquee>
+<p class="title">現在位置：首頁＞訪客留言</p>
+<form id="form1" name="form1" method="post" action="">
+  <table width="700px" border="1" align="center" cellpadding="2" cellspacing="0">
+    <tr>
+      <td width="120" align="center">姓　　名</td>
+      <td><label for="name"></label>
+      <input name="name" type="text" id="name" size="20" /></td>
+    </tr>
+    <tr>
+      <td align="center">電子郵件</td>
+      <td><input name="email" type="text" id="email" size="60" /></td>
+    </tr>
+    <tr>
+      <td align="center">性　　別</td>
+      <td><p>
+        <label>
+          <input name="sex" type="radio" id="sex_0" value="m" checked="checked" />
+          男
+        </label>
+       
+        <label>
+          <input name="sex" type="radio" id="sex_1" value="fm" />
+          女        </label>
+        <br />
+      </p></td>
+    </tr>
+    <tr>
+      <td align="center">職業類別</td>
+      <td><label for="work"></label>
+        <select name="work" size="1" id="work">
+          <option selected="selected">-----------請選擇職業類別-----------</option>
+          <option>現役軍人</option>
+          <option>民意代表、行政主管、企業主管及經理人員</option>
+<option>專業人員</option>
+<option>技術員及助理專業人員</option>
+<option>事務工作人員</option>
+<option>服務工作人員及售貨員</option>
+<option>農、林、漁、牧工作人員</option>
+<option>技術工及有關工作人員</option>
+<option>機械設備操作工及組裝工</option>
+<option>非技術工及體力工</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td align="center">留言內容</td>
+      <td><label for="message"></label>
+      <textarea name="message" id="message" cols="78" rows="10"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><input name="send" type="submit" id="send" onclick="MM_popupMsg('歡迎蒞臨本網站，您的寶貴意見我們會儘速處理與回覆，謝謝！')" value="送出" />
+      <input type="reset" name="button" id="button" value="重寫" /></td>
+    </tr>
+  </table>
+</form>
+<p>&nbsp;</p>
+</body>
+</html>
